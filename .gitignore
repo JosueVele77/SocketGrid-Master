@@ -1,0 +1,42 @@
+# Entorno virtual local
+.venv/
+venv/
+env/
+
+# Configuración de IDEs
+.idea/
+.vscode/
+
+# Cachés y archivos generados por Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos de distribución y cobertura
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+!.env.example
+
+# Logs y archivos temporales generados durante la ejecución
+*.log
+*.tmp
+*.temp
+
+# Las evidencias documentadas sí forman parte de la entrega
+!evidencias/
+!evidencias/*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
